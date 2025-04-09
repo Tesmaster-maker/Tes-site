@@ -1,81 +1,72 @@
-<!DOCTYPE html>
-<html lang="uk">
+<!DOCTYPE html><html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tes-master | Електрика та Сантехніка</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f0faff;
-      color: #0f2f33;
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      color: #1a1a1a;
     }
-
     header {
-      background-color: #b0e0e6;
-      padding: 2rem;
+      background: linear-gradient(90deg, #0078a0, #00bfa6);
+      color: white;
+      padding: 20px;
       text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-      letter-spacing: 1px;
+    header img {
+      height: 100px;
+      margin-bottom: 10px;
     }
-
-    main {
-      padding: 2rem;
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
     }
-
-    section {
-      margin-bottom: 2rem;
+    h1, h2 {
+      color: #0078a0;
     }
-
-    h2 {
-      border-left: 4px solid #0f2f33;
-      padding-left: 0.5rem;
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
     }
-
-    .contact {
-      background-color: #d1f0ff;
-      padding: 1rem;
+    .gallery img {
+      width: 100%;
       border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-
     footer {
-      background-color: #b0e0e6;
+      background: #e3e3e3;
       text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #2a2a2a;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Tes-master: Електрика та Сантехніка</h1>
-  </header>
+    <img src="logo.png" alt="Tes-master Logo">
+    <h1>Tes-master</h1>
+    <p>Електрика та сантехніка. Якість. Досвід. Надійність.</p>
+  </header>  <div class="container">
+    <h2>Про мене</h2>
+    <p>Професійний майстер з електрики та сантехніки з багаторічним досвідом. Працюю якісно, відповідально та з душею. Допоможу вирішити будь-яке технічне питання у вашій оселі.</p><h2>Приклади робіт</h2>
+<div class="gallery">
+  <img src="example1.jpg" alt="Приклад роботи 1">
+  <img src="example2.jpg" alt="Приклад роботи 2">
+  <img src="example3.jpg" alt="Приклад роботи 3">
+</div>
 
-  <main>
-    <section>
-      <h2>Послуги</h2>
-      <p>Професійна електрика та сантехніка з душею. Надійно, безпечно і акуратно — так, як для себе.</p>
-    </section>
+<h2>Контакти</h2>
+<p>Телефон: <a href="tel:+380639706656">+380639706656</a></p>
+<p>Email: <a href="mailto:papasyna00@gmail.com">papasyna00@gmail.com</a></p>
 
-    <section>
-      <h2>Контакти</h2>
-      <div class="contact">
-        <p>Телефон: <a href="tel:+380639706656">+380639706656</a></p>
-        <p>Email: <a href="mailto:papasyna00@gmail.com">papasyna00@gmail.com</a></p>
-        <p>Місцезнаходження: Україна</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    © 2025 Tes-master. Всі права захищені.
+  </div>  <footer>
+    &copy; 2025 Tes-master | Всі права захищені
   </footer>
 </body>
 </html>
